@@ -6,7 +6,7 @@ public class Homework1 {
         int count = 0;
 
         while (count < 5) {
-            System.out.print("정수를 입력하세요:");
+            System.out.printf("정수를 입력하세요:");
             int number = scanner.nextInt();
             sum += number;
             count++;
